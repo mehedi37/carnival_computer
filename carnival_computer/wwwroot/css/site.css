@@ -1,0 +1,75 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #1BB8C3;
+}
+
+.btn-primary, .bg-primary {
+    background-color: #1BB8C3 !important;
+    color: white !important;
+    border-radius: 5px;
+}
+.btn-danger {
+    background-color: #ff0000;
+    color: white !important;
+    border-radius: 5px;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+a.active {
+    background-color: #1BB8C3;
+    color: white !important;
+    border-radius: 5px;
+}
+ 
+.btn-primary:hover {
+    background-color: #56CBD4;
+    border-color: #4D777A;
+}
+
+.btn-danger:hover {
+    background-color: #F47272;
+    border-color: #621F1F;
+}
+ 
+a:hover, a:focus {
+    color: #1BB8C3;
+}
+ 
+.btn-primary:active {
+    background-color: #1BB8C3;
+    border-color: #1BB8C3;
+}
+
+.btn-danger:active {
+    background-color: #ff0000;
+    border-color: #ff0000;
+}
+ 
+.btn-primary:focus {
+    background-color: #1BB8C3;
+    border-color: #1BB8C3;
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #1BB8C3;
+}
+
+.btn-danger:focus {
+    background-color: #ff0000;
+    border-color: #ff0000;
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #ff0000;
+}
